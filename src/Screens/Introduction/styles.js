@@ -16,6 +16,7 @@ const useStyles = makeStyles({
     alignItems: "center",
     backgroundColor: StyleConstants.theme.dark.backgroundColor,
     color: StyleConstants.theme.dark.textColor,
+    zIndex: 100,
   },
   dp: {
     height: "250px",

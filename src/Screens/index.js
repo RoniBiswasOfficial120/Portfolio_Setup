@@ -6,6 +6,7 @@ import { makeStyles } from "@mui/styles";
 import ModalMenu from "../Component/ModalMenu";
 import { useState } from "react";
 import { StyleConstants } from "../Utils/StyleConstants";
+import Education from "./Education";
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -23,7 +24,7 @@ const useStyles = makeStyles({
     display: "flex",
     justifyContent: "flex-start",
     alignItems: "flex-start",
-    backgroundColor: "antiquewhite",
+    backgroundColor: StyleConstants.theme.white.backgroundColor,
   },
   bodyInnerContainer: {
     minHeight: "100vh",
@@ -32,7 +33,7 @@ const useStyles = makeStyles({
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "flex-start",
-    backgroundColor: "antiquewhite",
+    backgroundColor: StyleConstants.theme.white.backgroundColor,
   },
   modalContainer: {
     width: "100vw",
@@ -58,6 +59,7 @@ const MainScreen = () => {
           <Introduction />
           <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           <Abstruct />
+          <Education />
         </div>
       </div>
       {menuOpen && <ModalMenu setMenuOpen={setMenuOpen} menuOpen={menuOpen} />}

@@ -1,20 +1,14 @@
 const colors = {
-  black: "#000000",
-  white: "#FFFFFF",
   purple: "#5C2EA5",
   lightPurple: "#E4D8F3",
   gray: "#666666",
+  black: "#000000",
+  white: "#FFFFFF",
+  darkWhite: "#faebd7",
 };
 
 export const StyleConstants = {
   theme: {
-    neutral: {
-      backgroundColor: colors.black,
-      textColor: colors.white,
-      hoverTextColor: colors.gray,
-      borderColor: colors.white,
-      iconColor: colors.white,
-    },
     dark: {
       backgroundColor: colors.purple,
       textColor: colors.white,
@@ -24,6 +18,20 @@ export const StyleConstants = {
     },
     light: {
       backgroundColor: colors.lightPurple,
+      textColor: colors.black,
+      hoverTextColor: colors.gray,
+      borderColor: colors.black,
+      iconColor: colors.black,
+    },
+    black: {
+      backgroundColor: colors.black,
+      textColor: colors.white,
+      hoverTextColor: colors.gray,
+      borderColor: colors.white,
+      iconColor: colors.white,
+    },
+    white: {
+      backgroundColor: colors.darkWhite,
       textColor: colors.black,
       hoverTextColor: colors.gray,
       borderColor: colors.black,
@@ -84,4 +92,5 @@ export const StyleConstants = {
       kalam: "Kalam",
     },
   },
+  shadow: "0px 15px 13px -10px #5c2ea5",
 };

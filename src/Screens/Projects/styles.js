@@ -1,4 +1,5 @@
 import { makeStyles } from "@mui/styles";
+import { StyleConstants } from "../../Utils/StyleConstants";
 
 const useStyles = makeStyles({
   mainContainer: {
@@ -8,7 +9,7 @@ const useStyles = makeStyles({
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "flex-start",
-    backgroundColor: "antiquewhite",
+    backgroundColor: StyleConstants.theme.white.backgroundColor,
   },
 });
 

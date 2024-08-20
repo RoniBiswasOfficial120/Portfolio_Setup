@@ -15,8 +15,9 @@ const useStyles = makeStyles({
     paddingRight: StyleConstants.space.paddingLeftRight,
     boxSizing: "border-box",
     marginBottom: StyleConstants.space[10],
-    backgroundColor: StyleConstants.theme.neutral.backgroundColor,
-    color: StyleConstants.theme.neutral.textColor,
+    backgroundColor: StyleConstants.theme.black.backgroundColor,
+    color: StyleConstants.theme.black.textColor,
+    zIndex: 95,
   },
   leftContainer: {
     height: "100%",
@@ -46,7 +47,7 @@ const useStyles = makeStyles({
     fontSize: StyleConstants.text.fontSize.web.headerTabs,
     cursor: "pointer",
     "&:hover": {
-      color: StyleConstants.theme.neutral.hoverTextColor,
+      color: StyleConstants.theme.black.hoverTextColor,
     },
   },
 });
