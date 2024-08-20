@@ -4,7 +4,7 @@ import MenuSharpIcon from "@mui/icons-material/MenuSharp";
 
 const Header = ({ menuOpen, setMenuOpen }) => {
   const classes = useStyles();
-  const { height, width } = useWindowDimension();
+  const { width } = useWindowDimension();
 
   return (
     <div className={classes.mainContainer}>

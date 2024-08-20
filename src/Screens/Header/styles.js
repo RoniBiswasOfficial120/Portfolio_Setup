@@ -7,7 +7,6 @@ const useStyles = makeStyles({
     position: "sticky",
     top: 0,
     boxShadow: "0px 15px 13px -10px #5c2ea5",
-    backgroundColor: "antiquewhite",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",

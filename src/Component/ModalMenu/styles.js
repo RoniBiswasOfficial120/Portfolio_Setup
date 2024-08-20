@@ -1,5 +1,5 @@
 import { makeStyles } from "@mui/styles";
-import { StyleConstants } from "../../../Utils/StyleConstants";
+import { StyleConstants } from "../../Utils/StyleConstants";
 
 const useStyles = makeStyles({
   mainContainer: {

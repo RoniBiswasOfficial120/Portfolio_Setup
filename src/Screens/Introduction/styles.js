@@ -51,6 +51,14 @@ const useStyles = makeStyles({
       fontSize: StyleConstants.text.fontSize.mobile.profileTitle,
     },
   },
+  iconContainer: {
+    display: "flex",
+    flexDirection: "row",
+    width: "100%",
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: StyleConstants.space[20],
+  },
 });
 
 export default useStyles;

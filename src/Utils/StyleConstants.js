@@ -1,19 +1,40 @@
+const colors = {
+  black: "#000000",
+  white: "#FFFFFF",
+  purple: "#5C2EA5",
+  lightPurple: "#E4D8F3",
+  gray: "#666666",
+};
+
 export const StyleConstants = {
   theme: {
     neutral: {
-      backgroundColor: "#000000",
-      textColor: "#ffffff",
-      hoverTextColor: "#a6a6a6",
+      backgroundColor: colors.black,
+      textColor: colors.white,
+      hoverTextColor: colors.gray,
+      borderColor: colors.white,
+      iconColor: colors.white,
     },
     dark: {
-      backgroundColor: "#5c2ea5",
-      textColor: "#ffffff",
-      hoverTextColor: "#a6a6a6",
+      backgroundColor: colors.purple,
+      textColor: colors.white,
+      hoverTextColor: colors.gray,
+      borderColor: colors.white,
+      iconColor: colors.white,
     },
     light: {
-      backgroundColor: "#00c9b7",
-      textColor: "#000000",
-      hoverTextColor: "#262626",
+      backgroundColor: colors.lightPurple,
+      textColor: colors.black,
+      hoverTextColor: colors.gray,
+      borderColor: colors.black,
+      iconColor: colors.black,
+    },
+    transparent: {
+      backgroundColor: "transparent",
+      textColor: colors.black,
+      hoverTextColor: colors.gray,
+      borderColor: colors.black,
+      iconColor: colors.black,
     },
   },
   space: {

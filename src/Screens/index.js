@@ -3,7 +3,7 @@ import Introduction from "./Introduction";
 import Header from "./Header";
 import Abstruct from "./Abstruct";
 import { makeStyles } from "@mui/styles";
-import ModalMenu from "./Component/ModalMenu";
+import ModalMenu from "../Component/ModalMenu";
 import { useState } from "react";
 import { StyleConstants } from "../Utils/StyleConstants";
 
@@ -60,9 +60,7 @@ const MainScreen = () => {
           <Abstruct />
         </div>
       </div>
-      {menuOpen && (
-        <ModalMenu/>
-      )}
+      {menuOpen && <ModalMenu setMenuOpen={setMenuOpen} menuOpen={menuOpen} />}
     </div>
   );
 };
